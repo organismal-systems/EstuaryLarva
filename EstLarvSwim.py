@@ -54,6 +54,7 @@ class SwimSim():
         self.Cax = self.Efig.add_subplot(313)
         self.Hax = self.Efig.add_subplot(323)
         self.Vax = self.Efig.add_subplot(324)
+        # Create a flag to interupt execution
         self.halt = False
 
     def run(self):
